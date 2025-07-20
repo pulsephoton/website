@@ -1,0 +1,43 @@
+# Site settings
+title: "Pulse Photon"
+description: "Pulse Photon - Modern landing page with elegant contour design"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Site metadata
+author: "Pulse Photon"
+lang: en
+
+# SEO settings
+google_site_verification: ""
+bing_site_verification: ""
+
+# Social media
+twitter_username: ""
+github_username: ""
+
+# Analytics
+google_analytics: ""
+
+# Build settings
+incremental: true 
